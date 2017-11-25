@@ -15,9 +15,9 @@ export default class HomePage extends Component {
 
     render() {
         const urls = {
-            cmu: "https://www.cs.cmu.edu",
+            iitkgp: "https://www.iitkgp.ac.in",
             resume: require("./resume.pdf"),
-            github: "https://github.com/wchargin",
+            github: "https://github.com/ravibansal",
         };
         return <div>
             <Heading level={1}>Hey!</Heading>
@@ -26,8 +26,8 @@ export default class HomePage extends Component {
                 imagePosition={Blurb.IMAGE_RIGHT}
             >
                 <p>
-                    I’m pursuing a computer science major and math minor at <Link href={urls.cmu}>Carnegie Mellon</Link>.
-                    I&nbsp;love computer science because it unites math, logic, and critical thinking into a powerful toolset that I&nbsp;can use to solve real-world problems.
+                    I’m pursuing a computer science major at <Link href={urls.iitkgp}>IIT Kharagpur</Link>.
+                    I&nbsp;love computer science because it is a perfect blend of math, logic, and critical thinking into a powerful toolset that I&nbsp;can use to solve real-world problems.
                     You’ve landed on my personal website and portfolio.
                 </p>
                 <p>
@@ -48,10 +48,10 @@ export default class HomePage extends Component {
             <Heading level={2}>What do you want to know?</Heading>
             <ul>
                 <li>
-                    My surname is pronounced /'ʧɑɹgɪn/, with a hard&nbsp;<i>g</i>: it rhymes with&nbsp;<i>bargain</i>, not&nbsp;<i>barge&nbsp;in</i>.
+                    I am a machine learning enthusiast interested in the application of deep learning in real world problems.
                 </li>
                 <li>
-                    My hobbies include learning Greek and the game of Go.
+                    My hobbies include playing chess and the game of Table Tennis.
                 </li>
                 <li>
                     Here are some more pages with information about me:
